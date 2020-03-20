@@ -7,3 +7,7 @@ def reverse_each_word_each(string)
   newArray.join(" ")
 end
 
+def reverse_each_word(string)
+  myArray = string.split(" ")
+  newArray = []
+  myArray.collect 
